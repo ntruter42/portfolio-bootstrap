@@ -21,6 +21,12 @@ p {
 	background-color: #ddd !important;
 }
 
+#navbar img {
+	width: 20px;
+	filter: invert();
+	filter: brightness(50%);
+}
+
 #navbar a {
 	color: #888;
 }
