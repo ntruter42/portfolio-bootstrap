@@ -5,7 +5,7 @@
 	font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
 	outline: 1px solid cyan;
 }
 
@@ -15,7 +15,7 @@ p {
 
 .main-section {
 	outline: 2px solid grey;
-}
+} */
 
 #navbar {
 	background-color: #ddd !important;
