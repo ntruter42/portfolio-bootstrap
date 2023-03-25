@@ -5,17 +5,19 @@
 	font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
-/* h1, h2, h3, h4, h5, h6 {
-	outline: 1px solid cyan;
-}
-
-p {
+/* OUTLINES */
+h1, h2, h3, h4, h5, h6 {
 	outline: 1px solid blue;
 }
-
+p {
+	outline: 1px solid teal;
+}
+img {
+	outline: 2px solid magenta;
+}
 .main-section {
 	outline: 2px solid grey;
-} */
+}
 
 #navbar {
 	background-color: #ddd !important;
@@ -50,10 +52,11 @@ p {
 	background-image: linear-gradient(#ddd, #fff);
 }
 
-.main-section h1 {
-	color: #000;
+#title-section {
+	margin-top: 2em;
 }
 
-#intro-section {
-	margin-top: 34px;
+#title-section h1 {
+	color: #222;
+	padding: 1em 0;
 }

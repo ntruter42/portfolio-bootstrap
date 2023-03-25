@@ -1,3 +1,4 @@
+// NAVBAR CURRENT SECTION HIGHLIGHT
 window.addEventListener('scroll', function() {
 	var section1 = document.getElementById('intro-section');
 	var section1Top = section1.getBoundingClientRect().top;
