@@ -39,7 +39,7 @@ body {
 
 .main-section {
 	width: 100vw;
-	text-align: center;
+	/* text-align: center; */
 	background-image: linear-gradient(#ddd, #fff);
 }
 
