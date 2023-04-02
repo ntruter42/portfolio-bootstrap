@@ -1,0 +1,79 @@
+{
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"Ubuntu (WSL)": {
+			"path": "C:\\Windows\\System32\\wsl.exe",
+			"args": [
+				"-d",
+				"Ubuntu"
+			]
+		}
+	},
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "files.autoSave": "onFocusChange",
+    "editor.insertSpaces": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "breadcrumbs.enabled": false,
+	"editor.minimap.enabled": false,
+    "editor.stickyTabStops": true,
+	"editor.detectIndentation": false,
+	"terminal.integrated.defaultProfile.linux": "",
+	"workbench.colorTheme": "Dracula",
+	"editor.fontSize": 12,
+	"git.ignoreMissingGitWarning": true,
+	"emmet.useInlineCompletions": true,
+	"workbench.colorCustomizations": {
+		"editor.background": "#000",
+		"activityBar.background": "#000",
+		"activityBar.foreground": "#fff",
+		"activityBar.border": "#000",
+		"activityBar.activeBackground": "#112",
+		"activityBar.activeBorder": "#80f",
+		"sideBar.background": "#000",
+		"sideBar.border": "#000",
+		"sideBarSectionHeader.background": "#000",
+		"tab.activeBackground": "#000",
+		"tab.inactiveBackground": "#112",
+		"tab.activeBorderTop": "#80f",
+		"tab.border": "#000",
+		"editorGroupHeader.tabsBackground": "#000",
+		"titleBar.activeBackground": "#000",
+		"titleBar.inactiveBackground": "#000",
+		"statusBar.background": "#000",
+		"panel.background": "#000",
+		"scrollbarSlider.background": "#112",
+		"scrollbarSlider.hoverBackground": "#224",
+		"scrollbarSlider.activeBackground": "#80f",
+		"terminal.background": "#000",
+		"terminal.border": "#000",
+		"list.hoverBackground": "#224",
+		"list.activeSelectionBackground": "#224",
+		"list.inactiveSelectionBackground": "#112",
+		"tab.hoverBackground": "#224",
+		"toolbar.hoverBackground": "#224",
+		"dropdown.background": "#112"
+	},
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"C_Cpp.default.compilerPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\gcc",
+	"C_Cpp.default.includePath": [
+		"\\\\wsl$\\Ubuntu\\usr\\include"
+	]
+}
