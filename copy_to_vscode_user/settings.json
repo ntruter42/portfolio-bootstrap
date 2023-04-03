@@ -1,7 +1,7 @@
 {
-    "explorer.confirmDelete": false,
-    "workbench.startupEditor": "none",
-    "terminal.integrated.profiles.windows": {
+	"explorer.confirmDelete": false,
+	"workbench.startupEditor": "none",
+	"terminal.integrated.profiles.windows": {
 		"PowerShell": {
 			"source": "PowerShell",
 			"icon": "terminal-powershell"
@@ -25,14 +25,16 @@
 			]
 		}
 	},
-    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-    "files.autoSave": "onFocusChange",
-    "editor.insertSpaces": false,
-    "editor.suggestOnTriggerCharacters": false,
-    "breadcrumbs.enabled": false,
+	"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+	"files.autoSave": "onFocusChange",
+	"editor.insertSpaces": false,
+	"editor.suggestOnTriggerCharacters": false,
+	"breadcrumbs.enabled": false,
 	"editor.minimap.enabled": false,
-    "editor.stickyTabStops": true,
+	"editor.stickyTabStops": true,
 	"editor.detectIndentation": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
 	"terminal.integrated.defaultProfile.linux": "",
 	"workbench.colorTheme": "Dracula",
 	"editor.fontSize": 12,
@@ -75,5 +77,6 @@
 	"C_Cpp.default.compilerPath": "\\\\wsl$\\Ubuntu\\usr\\bin\\gcc",
 	"C_Cpp.default.includePath": [
 		"\\\\wsl$\\Ubuntu\\usr\\include"
-	]
+	],
+	"explorer.confirmDragAndDrop": false
 }
